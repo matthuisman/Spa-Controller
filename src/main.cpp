@@ -1,14 +1,14 @@
 #include <Arduino.h>
 
-// D0	IO, Pull-down                (MUST BE OUTPUT)
-// D1	IO, SCL
-// D2	IO, SDA
-// D3	IO, 10k Pull-up              (MUST BE OUTPUT)
-// D4	IO, 10k Pull-up, BUILTIN_LED (MUST BE OUTPUT)
-// D5	IO, SCK
-// D6	IO, MISO
-// D7	IO, MOSI
-// D8	IO, 10k Pull-down, SS        (MUST BE OUTPUT)
+// D0	IO, Pull-down                   GPIO16   (MUST BE OUTPUT)
+// D1	IO, SCL                         GPIO5
+// D2	IO, SDA                         GPIO4
+// D3	IO, 10k Pull-up                 GPIO0    (MUST BE OUTPUT)
+// D4	IO, 10k Pull-up, BUILTIN_LED    GPIO2    (MUST BE OUTPUT)
+// D5	IO, SCK                         GPIO14
+// D6	IO, MISO                        GPIO12
+// D7	IO, MOSI                        GPIO13
+// D8	IO, 10k Pull-down, SS           GPIO15   (MUST BE OUTPUT)
 
 #define HI_LIMIT_MAX  450   // (RANGE 200 => 900) (higher = hotter)
 
