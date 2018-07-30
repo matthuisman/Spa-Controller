@@ -14,8 +14,8 @@
 
 //INPUT PINS
 #define HI_LIMIT       A0  // GRAY
-#define LIGHT_REQUEST  D1  // ORANGE?
-#define JETS_REQUEST   D2  // BROWN?
+#define LIGHT_REQUEST  D1  // ORANGE
+#define JETS_REQUEST   D2  // BROWN
 #define HEAT_REQUEST   D5  // GREEN
 #define FLOW_OK        D6  // PURPLE
 
